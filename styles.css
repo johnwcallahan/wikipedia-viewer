@@ -1,0 +1,63 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:600, 400';
+
+body {
+  background-color: #AFDCE6;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.input-group {
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#random {
+  text-align: center;
+  width: 270px;
+  margin-top: 11px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #434343;
+}
+
+#random a {
+  color: #434343;
+  font-size: 16px;
+}
+
+#nav {
+  margin-top: 15%;
+}
+
+#entries {
+  margin-top: 50px;
+}
+
+.well {
+  background-color: #FFFFFF;
+}
+
+.well a {
+  color: #434343
+}
+
+.well a:hover {
+  text-decoration: none;
+}
+
+.well:hover {
+  background-color: #E6E6E6;
+}
+
+.well p {
+  padding-top: 8px;
+  font-size: 16px;
+}
+
+.well h4 {
+  font-weight: 600;
+}
