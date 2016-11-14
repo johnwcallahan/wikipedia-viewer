@@ -1,17 +1,19 @@
 $(document).ready(function() {
-  // start with entries hidden
+  
+  //Start with entries hidden
   $("#entries").hide();
   
   $("#search").click(function() {
-    // if entries already exist, entries will fade out so they can reappear with new info
+    
+    //If entries already exist, entries will fade out so they can reappear with new info
     $("#entries").fadeOut(200);
    
-   // search bar moves to top of page
+   //Search bar moves to top of page
     $("#nav").animate({
       marginTop: '0px'
     }, 500);
     
-    // get data from wikipedia API and display
+    // get data from Wikipedia API and display
     var input = $("#input").val();
     var url = "https://en.wikipedia.org/w/api.php?action=query&format=json" + 
     					"&prop=extracts&list=&generator=search&exsentences=1&exintro&" + 
