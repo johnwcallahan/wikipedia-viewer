@@ -1,8 +1,8 @@
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:600, 400';
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:600, 400";
 
 body {
-  background-color: #AFDCE6;
   font-family: "Source Sans Pro", sans-serif;
+  background-color: #AFDCE6;
 }
 
 .container {
@@ -11,22 +11,22 @@ body {
 
 .input-group {
   width: 270px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 #random {
-  text-align: center;
   width: 270px;
   margin-top: 11px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
+  text-align: center;
   color: #434343;
 }
 
 #random a {
-  color: #434343;
   font-size: 16px;
+  color: #434343;
 }
 
 #nav {
@@ -42,7 +42,7 @@ body {
 }
 
 .well a {
-  color: #434343
+  color: #434343;
 }
 
 .well a:hover {
@@ -54,8 +54,8 @@ body {
 }
 
 .well p {
-  padding-top: 8px;
   font-size: 16px;
+  padding-top: 8px;
 }
 
 .well h4 {
